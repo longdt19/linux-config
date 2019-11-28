@@ -1,0 +1,112 @@
+theme:Bluloco Light
+
+{
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80
+    ],
+    "editor.stablePeek": true,
+	"editor.minimap.enabled": false,
+	"window.zoomLevel": 0,
+	"peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "editor.detectIndentation": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations" : {
+        "terminal.background":"#3F3F3F",
+        "terminal.foreground":"#DCDCCC",
+        "terminalCursor.background":"#DCDCCC",
+        "terminalCursor.foreground":"#DCDCCC",
+        "terminal.ansiBlack":"#3F3F3F",
+        "terminal.ansiBlue":"#7CB8BB",
+        "terminal.ansiBrightBlack":"#4F4F4F",
+        "terminal.ansiBrightBlue":"#7CB8BB",
+        "terminal.ansiBrightCyan":"#93E0E3",
+        "terminal.ansiBrightGreen":"#5F7F5F",
+        "terminal.ansiBrightMagenta":"#DC8CC3",
+        "terminal.ansiBrightRed":"#DCA3A3",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#E0CF9F",
+        "terminal.ansiCyan":"#93E0E3",
+        "terminal.ansiGreen":"#5F7F5F",
+        "terminal.ansiMagenta":"#DC8CC3",
+        "terminal.ansiRed":"#DCA3A3",
+        "terminal.ansiWhite":"#DCDCCC",
+        "terminal.ansiYellow":"#E0CF9F",
+        "editor.background": "#fffaea",
+        "editor.foreground": "#0069c5",
+        "editorWidget.background": "#f5f9fd",
+        "editor.lineHighlightBackground": "#e6edfd",
+        "editor.selectionBackground": "#eed9f5",
+        "editor.inactiveSelectionBackground": "#fdd3d3",
+        "editor.findMatchHighlightBackground": "#dd8383",
+        "sideBar.background": "#f1ebda",
+        "activityBarBadge.background": "#e64545",
+        "activityBar.background": "#fff5cf",
+        "sideBarSectionHeader.background": "#ffffff",
+        "sideBarSectionHeader.foreground": "#dd3d3d"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#8f878a"
+    },
+    "editor.fontLigatures": true,
+    "files.autoSaveDelay": 3000,
+    "git.autofetch": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "Bluloco Light"
+}
