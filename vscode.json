@@ -1,14 +1,13 @@
 theme:Bluloco Light
-
 {
     "editor.renderWhitespace": "all",
     "editor.rulers": [
         80
     ],
     "editor.stablePeek": true,
-	"editor.minimap.enabled": false,
-	"window.zoomLevel": 0,
-	"peacock.favoriteColors": [
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "peacock.favoriteColors": [
         {
             "name": "Angular Red",
             "value": "#b52e31"
@@ -63,7 +62,7 @@ theme:Bluloco Light
         }
     ],
     "editor.detectIndentation": false,
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "workbench.colorCustomizations" : {
         "terminal.background":"#3F3F3F",
         "terminal.foreground":"#DCDCCC",
@@ -85,18 +84,26 @@ theme:Bluloco Light
         "terminal.ansiRed":"#DCA3A3",
         "terminal.ansiWhite":"#DCDCCC",
         "terminal.ansiYellow":"#E0CF9F",
+        // "terminal.integrated.minimumContrastRatio": 4.5,
         "editor.background": "#fffaea",
         "editor.foreground": "#0069c5",
         "editorWidget.background": "#f5f9fd",
         "editor.lineHighlightBackground": "#e6edfd",
         "editor.selectionBackground": "#eed9f5",
         "editor.inactiveSelectionBackground": "#fdd3d3",
-        "editor.findMatchHighlightBackground": "#dd8383",
+        "editor.findMatchHighlightBackground": "#f0ff68",
         "sideBar.background": "#f1ebda",
         "activityBarBadge.background": "#e64545",
         "activityBar.background": "#fff5cf",
         "sideBarSectionHeader.background": "#ffffff",
-        "sideBarSectionHeader.foreground": "#dd3d3d"
+        "sideBarSectionHeader.foreground": "#dd3d3d",
+        "editorLineNumber.foreground": "#4d4c4c",
+        "statusBar.background": "#617eff",
+        "statusBar.border": "#617eff",
+        "statusBar.foreground": "#ffffff",
+        "panel.background": "#fcfcdb",
+        "panelTitle.inactiveForeground": "#f06969",
+        "editorWhitespace.foreground": "#d8d7d7"
     },
     "editor.tokenColorCustomizations": {
         "comments": "#8f878a"
@@ -107,6 +114,8 @@ theme:Bluloco Light
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "workbench.colorTheme": "Bluloco Light",
     "editor.fontWeight": "500",
-    "workbench.colorTheme": "Bluloco Light"
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontSize": 14
 }
