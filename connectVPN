@@ -1,0 +1,31 @@
+#!/usr/bin/fish
+function otpVPN --description "generater OTP"
+    set -x SERECTKEY XXX
+    set -g CODE (oathtool --totp -b -d 6 $SERECTKEY)
+    echo $CODE
+end
+
+
+function configVPN --description "write USER, PASSWORD to file"
+    set -x otp (otpVPN)
+    set -x vpnPassword XXX
+    set -x passVPN $vpnPassword$otp
+    set -x userVPN XXX
+    echo $userVPN > vpn.txt
+    echo $passVPN >> vpn.txt
+end
+
+
+function autoreconnecVPN
+    while true
+        if test (nmcli con show --active | awk '/tap0/') # tap0 is name connection otpvpn
+            sleep 3
+        else
+            notify-send "VPN connecting!!!"
+            configVPN
+            sudo openvpn --config /path/to/filevpn
+        end
+    end
+end
+
+autoreconnecVPN
